@@ -1,0 +1,20 @@
+body{
+    height: 4444px;
+}
+.up{
+    background-color: rgb(187, 94, 94);
+    color: cornsilk;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    bottom: -40px;
+    right: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+.up.show{
+    bottom: 15px;
+}
